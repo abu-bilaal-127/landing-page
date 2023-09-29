@@ -51,6 +51,7 @@ ul.left-links {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 }
 
 .hero-texts {
@@ -64,6 +65,7 @@ ul.left-links {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
+    flex-shrink: 0;
 }
 
 p {
@@ -71,7 +73,7 @@ p {
     color: #e5e7eb;
 }
 
-button {
+.hero-text-button {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -112,4 +114,44 @@ button {
 
 .text-placeholder {
     text-align: center;
+}
+
+.quote-block {
+    background-color: #E5E7EB;
+    margin: 36px 0px;
+    padding: 36px 72px;
+}
+
+.quote, .author {
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+}
+
+.author {
+    font-weight: 700;
+    text-align: right;
+}
+
+.call-to-action {
+    margin: 32px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: 700;
 }
