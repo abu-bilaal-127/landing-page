@@ -79,3 +79,37 @@ button {
     padding: 8px;
     width: 100px;
 }
+
+.information-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 16px 0px;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+}
+
+.first, .second, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.image-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.text-placeholder {
+    text-align: center;
+}
